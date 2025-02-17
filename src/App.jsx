@@ -217,7 +217,7 @@ const App = () => {
           Confirm Cancellation Request: YOU: "Just to confirm, you'd like to cancel your order effective immediately, is that correct?"
           <WAIT FOR USER RESPONSE>
           Process Cancellation (if confirmed):
-          If the customer confirms the cancellation, execute the cancelOrder function and check the cancelStatus.
+          If the customer confirms the cancellation, run the cancelOrderWithPhoneNum function with ${aPhone} and check the cancelStatus.
           Handle Cancellation Results:
           Success: [Acknowledge cancellation and offer further assistance, if appropriate. Example: "Your order has been successfully cancelled. Is there anything else I can assist you with today?"]
           Failure: YOU: "I apologize, I'm encountering a technical issue with the cancellation process. Please contact our customer support team directly for assistance. Is there anything else I can help you with today?"
